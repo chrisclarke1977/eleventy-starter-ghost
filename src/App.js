@@ -1,9 +1,9 @@
-import { useState } from "react";
+import React from "react";
 import { DB } from './db.js';
 import "./styles.css";
 
 export default function App() {
-  const [selectedGenre, setGenre] = useState("Romantic");
+  const [selectedGenre, setGenre] = React.useState("Romantic");
 
   function genreClickHandler(category) {
     setGenre(category);
