@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { animeDB } from './db.js';
+import { DB } from './db.js';
 import "./styles.css";
 
 export default function App() {
@@ -15,7 +15,7 @@ export default function App() {
         Here's a list of my fav anime. Select a genre to get started.
       </p>
       <div>
-        {Object.keys(animeDB).map((category) => (
+        {Object.keys(DB).map((category) => (
           <button
             onClick={() => genreClickHandler(category)}
             style={{
@@ -35,7 +35,7 @@ export default function App() {
       <hr />
       <div style={{ textAlign: "left" }}>
         <ul style={{ paddingInlineStart: "0" }}>
-          {animeDB[selectedGenre].map((anime) => (
+          {DB[selectedGenre].map((anime) => (
             <li
               key={anime.name}
               style={{
