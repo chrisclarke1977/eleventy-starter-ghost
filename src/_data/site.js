@@ -1,13 +1,27 @@
 require("dotenv").config();
 
-const ghostContentAPI = require("@tryghost/content-api");
-
 // Init Ghost API
-const api = new ghostContentAPI({
-  url: process.env.GHOST_API_URL,
-  key: process.env.GHOST_CONTENT_API_KEY,
-  version: "v2"
-});
+const api =   {
+  posts: {
+  browse: () => { return [] },
+  read: () => {return []}
+},
+authors: {
+  browse: () => {return []},
+  read: () => {return []}
+},
+tags: {
+  browse: () => {return []},
+  read: () => {return []}
+},
+pages: {
+  browse: () => {return []},
+  read: () => {return []}
+},
+settings: {
+  browse: () => {return []}
+}
+}
 
 // Get all site information
 module.exports = async function() {
