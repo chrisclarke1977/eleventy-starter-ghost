@@ -8,7 +8,7 @@ export default function Profile() {
             <Top />
             <main className="site-main">
                 <div className="container">
-                    <h2>Kez and Unicorns</h2>
+                    <h1>Kez and Unicorns Profile</h1>
                 </div>
             </main>
             <Bottom />

@@ -8,7 +8,7 @@ export default function Home() {
         <>
             <Top />
             <Main />
-            <h2>Home</h2>
+            <h1>Home of Kez and Unicorns</h1>
             <Posts />
         </>
     );

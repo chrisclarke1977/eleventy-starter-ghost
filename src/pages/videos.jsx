@@ -9,7 +9,7 @@ export default function Videos() {
             <Top />
             <main className="site-main">
                 <div className="container">
-                    <h2>Kez and Unicorns</h2>
+                    <h1>Kez and Unicorns Videos</h1>
                     <Posts />
                 </div>
             </main>

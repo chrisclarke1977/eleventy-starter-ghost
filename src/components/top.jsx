@@ -123,6 +123,13 @@ const Top = () => {
                                     >
                                         Kez and Unicorns Profile
                                     </Link>
+                                    <Link
+                                        className="site-nav-item"
+                                        to="/contact"
+                                    >
+                                        Contact
+                                    </Link>
+                                    
                                     <Link className="site-nav-item" to="/recommendations" >
                                         Recommendations
                                     </Link>

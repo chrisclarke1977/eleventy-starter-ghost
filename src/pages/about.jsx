@@ -8,7 +8,9 @@ export default function About() {
             <Top />
             <main className="site-main">
                 <div className="container">
-                    <h2>Unicorns!</h2>
+                    <h1><span role="img" aria-label="unicorn">
+                            🦄
+                        </span>Unicorns!</h1>
                     <section>
                         <p>
                             Hi I'm Kez and welcome to my little Kawaii spaces! I

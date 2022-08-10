@@ -8,6 +8,7 @@ import Recommendation from "./pages/recommendation";
 import About from "./pages/about";
 import Videos from "./pages/videos";
 import Profile from "./pages/profile";
+import Contact from "./pages/contact";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -20,6 +21,7 @@ root.render(
             <Route path="/recommendations" element={<Recommendation />} />
             <Route path="/videos" element={<Videos />} />
             <Route path="/kezandunicorns" element={<Profile />} />
+            <Route path="/contact" element={<Contact />} />
         </Routes>
     </BrowserRouter>
 );
