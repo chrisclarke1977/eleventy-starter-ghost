@@ -94,7 +94,7 @@ const Top = () => {
                                 <div className="site-nav-left">
                                     <a
                                         className="site-nav-item"
-                                        href="https://github.com/chriscalrke1977/eleventy-starter-ghost"
+                                        href="https://github.com/chrisclarke1977/eleventy-starter-ghost"
                                     >
                                         Repo
                                     </a>
