@@ -20,7 +20,7 @@ const Post = ({
     duration
 }) => {
     return (
-        <a className="post-card" href={urlSrc(id)}>
+        <a className="post-card" href={urlSrc(id)} target="_blank" rel="noopener noreferrer">
             <header className="post-card-header">
                 <img
                     className="post-card-image lazyloaded"
