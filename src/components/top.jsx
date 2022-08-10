@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Top = () => {
     return (
@@ -8,21 +9,20 @@ const Top = () => {
                     <header
                         className="site-head"
                         style={{
-                            backgroundImage: 
-                                "url(/assets/top-banner.jpg)"
+                            backgroundImage: "url(/assets/top-banner.jpg)"
                         }}
                     >
                         <div className="container">
                             <div className="site-mast">
                                 <div className="site-mast-left">
-                                    <a aria-current="page" href="/">
+                                    <Link aria-current="page" to="/">
                                         <img
                                             className="site-logo lazyloaded"
                                             src="/assets/author.jpg"
                                             alt="Kez &amp; Unicorns"
                                             data-src="/assets/author.jpg"
                                         />
-                                    </a>
+                                    </Link>
                                 </div>
                                 <div className="site-mast-right">
                                     <a
@@ -83,10 +83,16 @@ const Top = () => {
                                 </div>
                             </div>
                             <div className="site-banner">
-                                <h1 className="site-banner-title" style={{ display: "none" }}>
+                                <h1
+                                    className="site-banner-title"
+                                    style={{ display: "none" }}
+                                >
                                     Kez and Unicorns
                                 </h1>
-                                <p className="site-banner-desc" style={{ display: "none" }}>
+                                <p
+                                    className="site-banner-desc"
+                                    style={{ display: "none" }}
+                                >
                                     Kezandunicorns a youtuber
                                 </p>
                             </div>
@@ -98,33 +104,33 @@ const Top = () => {
                                     >
                                         Repo
                                     </a>
-                                    <a
+                                    <Link
                                         aria-current="page"
                                         className="site-nav-item"
-                                        href="/"
+                                        to="/"
                                     >
                                         Home
-                                    </a>
-                                    <a
+                                    </Link>
+                                    <Link
                                         className="site-nav-item"
-                                        href="/tag/getting-started/"
+                                        to="/posts/"
                                     >
-                                        Tag
-                                    </a>
-                                    <a
+                                        Posts
+                                    </Link>
+                                    <Link
                                         className="site-nav-item"
-                                        href="/author/kezandunicorns/"
+                                        to="/kezandunicorns/"
                                     >
-                                        Author
-                                    </a>
+                                        kezandunicorns
+                                    </Link>
                                 </div>
                                 <div className="site-nav-right">
-                                    <a
+                                    <Link
+                                        to="/about"
                                         className="site-nav-button"
-                                        href="/about/"
                                     >
                                         About
-                                    </a>
+                                    </Link>
                                 </div>
                             </nav>
                         </div>

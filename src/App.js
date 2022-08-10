@@ -1,7 +1,8 @@
 import React from "react";
-import Main from "./main";
-import Top from "./top";
-import Bottom from "./bottom";
+
+import Main from "./components/main";
+import Top from "./components/top";
+import Bottom from "./components/bottom";
 
 import "./styles.css";
 

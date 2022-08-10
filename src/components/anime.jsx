@@ -1,6 +1,6 @@
 import React from "react";
 
-import { DB } from "./db.js";
+import { DB } from "../stores/db";
 
 export default function Anime() {
     const [selectedGenre, setGenre] = React.useState("Romantic");

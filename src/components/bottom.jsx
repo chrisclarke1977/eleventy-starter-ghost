@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Bottom = () => {
     return (
@@ -6,15 +7,15 @@ const Bottom = () => {
             <footer className="site-foot">
                 <div className="site-foot-nav container">
                     <div className="site-foot-nav-left">
-                        <a aria-current="page" className="" href="/">
+                        <Link aria-current="page" className="" to="/">
                             Kez &amp; Unicorns
-                        </a>
+                        </Link>
                         © 2020 – Published with Love
                     </div>
                     <div className="site-foot-nav-right">
-                        <a className="site-foot-nav-item" href="/about/">
+                        <Link className="site-foot-nav-item" to="/about/">
                             About
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </footer>

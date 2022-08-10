@@ -1,5 +1,6 @@
 import React from "react";
-import { postsDB } from "./postsDB";
+
+import { postsDB } from "../stores/postsDB";
 
 function urlSrc(id) {
     return `https://www.youtube.com/watch?v=${id}`;
@@ -8,7 +9,6 @@ function urlSrc(id) {
 function imgSrc(id) {
     return `https://i.ytimg.com/vi/${id}/hqdefault.jpg`;
 }
-
 
 const Post = ({
     id,
@@ -20,7 +20,12 @@ const Post = ({
     duration
 }) => {
     return (
-        <a className="post-card" href={urlSrc(id)} target="_blank" rel="noopener noreferrer">
+        <a
+            className="post-card"
+            href={urlSrc(id)}
+            target="_blank"
+            rel="noopener noreferrer"
+        >
             <header className="post-card-header">
                 <img
                     className="post-card-image lazyloaded"
@@ -60,11 +65,13 @@ const Post = ({
 
 const Posts = () => {
     return (
-        <section className="post-feed">
-            {postsDB.map(item => (
-                <Post {...item} />
-            ))}
-        </section>
+        <>
+            <section className="post-feed">
+                {postsDB.map(item => (
+                    <Post {...item} />
+                ))}
+            </section>
+        </>
     );
 };
 
