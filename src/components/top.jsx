@@ -113,15 +113,18 @@ const Top = () => {
                                     </Link>
                                     <Link
                                         className="site-nav-item"
-                                        to="/posts/"
+                                        to="/videos/"
                                     >
-                                        Posts
+                                        Videos
                                     </Link>
                                     <Link
                                         className="site-nav-item"
                                         to="/kezandunicorns/"
                                     >
-                                        kezandunicorns
+                                        Kez and Unicorns Profile
+                                    </Link>
+                                    <Link className="site-nav-item" to="/recommendations" >
+                                        Recommendations
                                     </Link>
                                 </div>
                                 <div className="site-nav-right">
