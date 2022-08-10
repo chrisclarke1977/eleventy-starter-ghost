@@ -9,7 +9,7 @@ const Top = () => {
                         className="site-head"
                         style={{
                             backgroundImage: 
-                                "no-repeat center center fixed url(/assets/top-banner.jpg) "
+                                "url(/assets/top-banner.jpg)"
                         }}
                     >
                         <div className="container">
@@ -18,9 +18,9 @@ const Top = () => {
                                     <a aria-current="page" href="%PUBLIC_URL%">
                                         <img
                                             className="site-logo lazyloaded"
-                                            src="/assets/images/25eUlP-ghost-logo.svg"
-                                            alt="Eleventy &amp; Ghost"
-                                            data-src="/assets/images/25eUlP-ghost-logo.svg"
+                                            src="/assets/author.jpg"
+                                            alt="Kez &amp; Unicorns"
+                                            data-src="/assets/author.jpg"
                                         />
                                     </a>
                                 </div>
@@ -94,9 +94,9 @@ const Top = () => {
                                 <div className="site-nav-left">
                                     <a
                                         className="site-nav-item"
-                                        href="https://github.com/TryGhost/eleventy-starter-ghost"
+                                        href="https://github.com/chriscalrke1977/eleventy-starter-ghost"
                                     >
-                                        Starter Repo
+                                        Repo
                                     </a>
                                     <a
                                         aria-current="page"
@@ -113,15 +113,9 @@ const Top = () => {
                                     </a>
                                     <a
                                         className="site-nav-item"
-                                        href="/author/ghost/"
+                                        href="/author/kezandunicorns/"
                                     >
                                         Author
-                                    </a>
-                                    <a
-                                        className="site-nav-item"
-                                        href="https://docs.ghost.org"
-                                    >
-                                        Help
                                     </a>
                                 </div>
                                 <div className="site-nav-right">
