@@ -11,7 +11,7 @@ export default function Anime() {
 
     return (
         <div className="App">
-            <h1>📺 Anime Recommendation</h1>
+            <h1><span role="img">📺</span> Anime Recommendation</h1>
             <p style={{ fontSize: "medium" }}>
                 Here's a list of my fav anime. Select a genre to get started.
             </p>
