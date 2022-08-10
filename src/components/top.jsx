@@ -100,9 +100,9 @@ const Top = () => {
                                 <div className="site-nav-left">
                                     <a
                                         className="site-nav-item"
-                                        href="https://github.com/chrisclarke1977/eleventy-starter-ghost"
+                                        href="https://www.patreon.com/kezandunicorns"
                                     >
-                                        Repo
+                                        Support me
                                     </a>
                                     <Link
                                         aria-current="page"
@@ -126,6 +126,12 @@ const Top = () => {
                                     <Link className="site-nav-item" to="/recommendations" >
                                         Recommendations
                                     </Link>
+                                    <a
+                                        className="site-nav-item"
+                                        href="https://github.com/chrisclarke1977/eleventy-starter-ghost"
+                                    >
+                                        Repo
+                                    </a>
                                 </div>
                                 <div className="site-nav-right">
                                     <Link
