@@ -15,7 +15,7 @@ const Top = () => {
                         <div className="container">
                             <div className="site-mast">
                                 <div className="site-mast-left">
-                                    <a aria-current="page" href="%PUBLIC_URL%">
+                                    <a aria-current="page" href="/">
                                         <img
                                             className="site-logo lazyloaded"
                                             src="/assets/author.jpg"
@@ -83,10 +83,10 @@ const Top = () => {
                                 </div>
                             </div>
                             <div className="site-banner">
-                                <h1 className="site-banner-title">
+                                <h1 className="site-banner-title" style={{ display: "none" }}>
                                     Kez and Unicorns
                                 </h1>
-                                <p className="site-banner-desc">
+                                <p className="site-banner-desc" style={{ display: "none" }}>
                                     Kezandunicorns a youtuber
                                 </p>
                             </div>
