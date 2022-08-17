@@ -14,14 +14,15 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build",
+    "build": "astro build && copyfiles -V -E assets/* dist/assets/.",
     "preview": "astro preview",
     "astro": "astro"
   },
   "devDependencies": {
     "@astrojs/preact": "^1.0.0",
     "astro": "^1.0.1",
-    "sass": "^1.52.2"
+    "sass": "^1.52.2",
+    "copyfiles": "^2.4.1"
   },
   "dependencies": {
     "preact": "^10.7.3"
