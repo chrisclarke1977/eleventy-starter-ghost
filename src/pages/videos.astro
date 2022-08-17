@@ -1,0 +1,95 @@
+---
+import MainHead from '../components/MainHead.astro';
+import Footer from '../components/Footer/index.jsx';
+import Nav from '../components/Nav/index.jsx';
+import Videos from '../components/Videos/index.jsx';
+---
+
+
+<html lang="en">
+	<head>
+		<MainHead
+			title="All Projects | Kez &amp; Unicorns"
+			description="Learn about Kez &amp; Unicorns most recent projects"
+		/>
+		<style lang="scss">
+			.heroImg {
+				max-height: 24rem;
+				object-fit: cover;
+				overflow: hidden;
+
+				img {
+					width: 100%;
+				}
+			}
+
+			.bio {
+				font-size: var(--f-u1);
+				line-height: 2;
+			}
+		</style>
+	</head>
+	<body>
+		<Nav />
+        <main className="site-main">
+            <div className="container">
+            <div class="wrapper">
+                <div class="heroImg mt4 mb4">
+                    <img
+                        width="1400"
+                        height="350"
+                        src="https://kezandunicorns.com/assets/top-banner.jpg"
+                    />
+                </div>
+                <Videos />
+            </div>
+            </div>
+        </main>
+		<Footer />
+            <script>
+            (function(selector, src, preferNativeLazyLoad) {
+                var images = document.querySelectorAll(selector);
+                var numImages = images.length;
+
+                if (numImages > 0) {
+                    if (
+                        preferNativeLazyLoad &&
+                        "loading" in HTMLImageElement.prototype
+                    ) {
+                        for (var i = 0; i < numImages; i++) {
+                            var keys = ["src", "srcset"];
+
+                            for (var j = 0; j < keys.length; j++) {
+                                if (images[i].hasAttribute("data-" + keys[j])) {
+                                    var value = images[i].getAttribute(
+                                        "data-" + keys[j]
+                                    );
+                                    images[i].setAttribute(keys[j], value);
+                                }
+                            }
+                        }
+
+                        return;
+                    }
+
+                    var script = document.createElement("script");
+                    script.async = true;
+                    script.src = src;
+                    document.body.appendChild(script);
+                }
+            })(
+                "img",
+                "https://cdn.jsdelivr.net/npm/lazysizes@5/lazysizes.min.js",
+                false
+            );
+        </script>
+        <script
+            async=""
+            src="https://cdn.jsdelivr.net/npm/lazysizes@5/lazysizes.min.js"
+        ></script>
+
+        <noscript>
+            You need to enable JavaScript to run this app.
+        </noscript>
+	</body>
+</html>

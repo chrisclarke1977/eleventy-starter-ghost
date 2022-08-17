@@ -1,0 +1,118 @@
+---
+import MainHead from '../components/MainHead.astro';
+import Footer from '../components/Footer/index.jsx';
+import Nav from '../components/Nav/index.jsx';
+---
+
+<html lang="en">
+	<head>
+		<MainHead title="About | Kez and Unicorns" description="About Kez and Unicorns" />
+		<style lang="scss">
+			.heroImg {
+				max-height: 24rem;
+				object-fit: cover;
+				overflow: hidden;
+
+				img {
+					width: 100%;
+				}
+			}
+
+			.bio {
+				font-size: var(--f-u1);
+				line-height: 2;
+			}
+		</style>
+	</head>
+	<body>
+		<Nav />
+		<div class="wrapper">
+			<div class="heroImg">
+				<img
+					width="1400"
+					height="350"
+					src="https://kezandunicorns.com/assets/top-banner.jpg"
+				/>
+			</div>
+			<div class="bio wrapper wrapper__readable mt8">
+	            <main className="site-main">
+                <div className="container">
+                    <h1>About Kez &amp;<span role="img" aria-label="unicorn">
+                            🦄
+                        </span>Unicorns!</h1>
+                    <section>
+                        <p>
+                            Hi I'm Kez and welcome to my little Kawaii spaces! I
+                            basically love Unicorns, Japanese Pop Culture and
+                            all things Kawaii, but that aesthetic isn't
+                            everything. I do social commentary and currently
+                            have a series called Makeup &amp; Mental Health
+                            Mondays, another called This Is Not Tea, where I
+                            talk about YouTube "Tea"/Drama from a different
+                            perspective. I do have other content including Wig
+                            Reviews, Get Ready With Me's, Fashion &amp; Styling
+                            and have more planned and am always keen to hear
+                            what you would like to see from me.
+                        </p>
+                    </section>
+                    <section>
+                        <p>
+                            Thank you so much for visiting, I hope you enjoy the
+                            content and choose to subscribe and visit my other
+                            social media channels too! Let's have some fun and
+                            spread that kawaii unicorn love!
+                        </p>
+                    </section>
+                    <section>
+                        <ol>
+                            <li>
+                                <a href="https://www.patreon.com/kezandunicorns">
+                                    Patreon:
+                                    https://www.patreon.com/kezandunicorns
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/kezandunicorns">
+                                    Instagram
+                                    https://www.instagram.com/kezandunicorns
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/kezandunicorns">
+                                    Twitter https://twitter.com/kezandunicorns
+                                </a>
+                            </li>
+                            <li>
+                            <a href="https://youtube.com/c/kezandunicorns">
+                            Youtube https://youtube.com/c/kezandunicorns
+                            </a>
+                            </li>
+                            <li>
+                            <a href="https://www.reddit.com/user/kezandunicorns/">
+                            Reddit https://www.reddit.com/user/kezandunicorns/</a></li>
+                        </ol>
+                    </section>
+                    <section>
+                        <p>Arigato gozaimasu, and keep unicorning!</p>
+                    </section>
+                    <section>
+                        <span role="img" aria-label="unicorn">
+                            🦄
+                        </span>
+                        <span role="img" aria-label="heart">
+                            💖
+                        </span>
+                        <span role="img" aria-label="rainbow">
+                            🌈
+                        </span>
+                        <span role="img" aria-label="unicorn">
+                            🦄
+                        </span>
+                    </section>
+                </div>
+            </main>
+			</div>
+		</div>
+		<Footer />
+	</body>
+</html>
