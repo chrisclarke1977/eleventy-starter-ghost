@@ -3,7 +3,7 @@ export const postsDB = [
     id: '6FY3qRd4ihs',
     tags: 'CRINGE',
     title:
-      "CRINGE for 9.17 minutes * Outtakes from My FIRST Video * | Wig Review | Let's Cringe Together",
+      "CRINGE for 9.17 minutes * Outtakes from My FIRST Video *",
     description:
       "CRINGE for 9.17 minutes * Outtakes from My FIRST Video * | Wig Review | Let's Cringe Together",
     authorSrc: 'https://kezandunicorns.com/assets/assets//author.jpg',
@@ -23,7 +23,7 @@ export const postsDB = [
   {
     id: 'MfFq3d1Llxk',
     tags: `This is not "Tea"`,
-    title: `The Gabbie "Show" is a Farce, not an excuse | This is not "Tea"`,
+    title: `The Gabbie "Show" is a Farce, not an excuse`,
     description: '',
     authorSrc: 'https://kezandunicorns.com/assets/assets//author.jpg',
     author: 'kezandunicorns',
@@ -31,7 +31,7 @@ export const postsDB = [
   },
   {
     tags: `This is not "TEA"`,
-    title: ` YOUTUBE’S BIGGEST “VICTIM” Poor Katie Joy Paulson (WOACB) | This is Not TEA `,
+    title: ` YOUTUBE’S BIGGEST “VICTIM” Poor Katie Joy Paulson (WOACB)`,
     description: ` YOUTUBE’S BIGGEST “VICTIM” Poor Katie Joy Paulson (WOACB) | This is Not TEA `,
     authorSrc: 'https://kezandunicorns.com/assets/assets//author.jpg',
     author: 'kezandunicorns',
@@ -41,7 +41,7 @@ export const postsDB = [
   },
   {
     tags: 'Debunking BPD | Makeup and Mental Health',
-    title: ` You think you KNOW BPD? You DON'T: The 9 Traits | Debunking BPD | Makeup and Mental Health `,
+    title: ` You think you KNOW BPD? You DON'T: The 9 Traits `,
     description: ` You think you KNOW BPD? You DON'T: The 9 Traits | Debunking BPD | Makeup and Mental Health `,
     authorSrc: 'https://kezandunicorns.com/assets/assets//author.jpg',
     author: 'kezandunicorns',
@@ -51,7 +51,7 @@ export const postsDB = [
   },
   {
     tags: `This is not "TEA"`,
-    title: ` "I'm the Victim because..." | This is Not TEA `,
+    title: ` "I'm the Victim because..." `,
     description: ` "I'm the Victim because..." | This is Not TEA `,
     authorSrc: 'https://kezandunicorns.com/assets/assets//author.jpg',
     author: 'kezandunicorns',
@@ -61,7 +61,7 @@ export const postsDB = [
   },
   {
     tags: `This is not "TEA"`,
-    title: ` Eugenia Cooney: DEMONISED for a DISEASE? Or a Genuine Threat? | This is not "Tea" `,
+    title: ` Eugenia Cooney: DEMONISED for a DISEASE? Or a Genuine Threat? `,
     description: ` Eugenia Cooney: DEMONISED for a DISEASE? Or a Genuine Threat? | This is not "Tea" `,
     authorSrc: 'https://kezandunicorns.com/assets/assets//author.jpg',
     author: 'kezandunicorns',
@@ -71,7 +71,7 @@ export const postsDB = [
   },
   {
     tags: `This is not "TEA"`,
-    title: ` THE BIGGEST HYPOCRITE ON YOUTUBE Katie Joy Paulson (Without A Crystal Ball) | This is not "TEA" `,
+    title: ` THE BIGGEST HYPOCRITE ON YOUTUBE Katie Joy Paulson (Without A Crystal Ball) `,
     description: ` THE BIGGEST HYPOCRITE ON YOUTUBE Katie Joy Paulson (Without A Crystal Ball) | This is not "TEA" `,
     authorSrc: 'https://kezandunicorns.com/assets/assets//author.jpg',
     author: 'kezandunicorns',
@@ -81,7 +81,7 @@ export const postsDB = [
   },
   {
     tags: 'Normalisation of Death Threats | Stereo Broadcast Podcast',
-    title: ` Charli D'Amelio HATERS are going TOO FAR | Normalisation of Death Threats | Stereo Broadcast Podcast `,
+    title: ` Charli D'Amelio HATERS are going TOO FAR `,
     description: ` Charli D'Amelio HATERS are going TOO FAR | Normalisation of Death Threats | Stereo Broadcast Podcast `,
     authorSrc: 'https://kezandunicorns.com/assets/assets//author.jpg',
     author: 'kezandunicorns',
@@ -91,7 +91,7 @@ export const postsDB = [
   },
   {
     tags: 'Raid Your Closet Cosplay | Kawaii Corner',
-    title: ` Princess Peach Cosplay | *Non- Spooky* Halloween Edition | Raid Your Closet Cosplay | Kawaii Corner `,
+    title: ` Princess Peach Cosplay `,
     description: ` Princess Peach Cosplay | *Non- Spooky* Halloween Edition | Raid Your Closet Cosplay | Kawaii Corner `,
     authorSrc: 'https://kezandunicorns.com/assets/assets//author.jpg',
     author: 'kezandunicorns',
@@ -111,7 +111,7 @@ export const postsDB = [
   },
   {
     tags: 'World Mental Health Day 2020',
-    title: ` Borderline Personality Disorder: What it looks like V What it IS | World Mental Health Day 2020 `,
+    title: ` Borderline Personality Disorder: What it looks like V What it IS `,
     description: ` Borderline Personality Disorder: What it looks like V What it IS | World Mental Health Day 2020 `,
     authorSrc: 'https://kezandunicorns.com/assets/assets//author.jpg',
     author: 'kezandunicorns',
@@ -151,7 +151,7 @@ export const postsDB = [
   },
   {
     tags: 'Kawaii, Unicorn, Fairy, | Kawaii Corner',
-    title: ` Pastel Rainbow Explosion Makeup Tutorial | Kawaii, Unicorn, Fairy, | Kawaii Corner `,
+    title: ` Pastel Rainbow Explosion Makeup Tutorial `,
     description: ` Pastel Rainbow Explosion Makeup Tutorial | Kawaii, Unicorn, Fairy, | Kawaii Corner `,
     authorSrc: 'https://kezandunicorns.com/assets/assets//author.jpg',
     author: 'kezandunicorns',
@@ -161,7 +161,7 @@ export const postsDB = [
   },
   {
     tags: 'FASHERN Review | Kawaii Corner',
-    title: ` The ONE ITEM CHALLENGE with a ROMPER: Styling NEON with PASTELS! | FASHERN Review | Kawaii Corner `,
+    title: ` The ONE ITEM CHALLENGE with a ROMPER: Styling NEON with PASTELS! `,
     description: ` The ONE ITEM CHALLENGE with a ROMPER: Styling NEON with PASTELS! | FASHERN Review | Kawaii Corner `,
     authorSrc: 'https://kezandunicorns.com/assets/assets//author.jpg',
     author: 'kezandunicorns',
@@ -181,7 +181,7 @@ export const postsDB = [
   },
   {
     tags: 'Live',
-    title: ` LIVE: Am I The A**hole? | The Latest stories from r/AITA | LiveStream `,
+    title: ` LIVE: Am I The A**hole? | The Latest stories from r/AITA `,
     description: ` LIVE: Am I The A**hole? | The Latest stories from r/AITA | LiveStream `,
     authorSrc: 'https://kezandunicorns.com/assets/assets//author.jpg',
     author: 'kezandunicorns',
@@ -241,7 +241,7 @@ export const postsDB = [
   },
   {
     tags: "This Ain't It Chief ",
-    title: ` Shane Dawson, please just tell us Why. Why did you do this? | This Ain't It Chief `,
+    title: ` Shane Dawson, please just tell us Why. Why did you do this? `,
     description: ` Shane Dawson, please just tell us Why. Why did you do this? | This Ain't It Chief `,
     authorSrc: 'https://kezandunicorns.com/assets/assets//author.jpg',
     author: 'kezandunicorns',
@@ -251,7 +251,7 @@ export const postsDB = [
   },
   {
     tags: 'This is not Tea',
-    title: ` Who's the real VILLAIN? They Pushed JAMES CHARLES to the Edge | This is not Tea `,
+    title: ` Who's the real VILLAIN? They Pushed JAMES CHARLES to the Edge `,
     description: ` Who's the real VILLAIN? They Pushed JAMES CHARLES to the Edge | This is not Tea `,
     authorSrc: 'https://kezandunicorns.com/assets/assets//author.jpg',
     author: 'kezandunicorns',
@@ -271,7 +271,7 @@ export const postsDB = [
   },
   {
     tags: 'Caroline Flack Villain or Victim? | This is not TEA',
-    title: ` We Need to Talk About Cancel Culture | Caroline Flack Villain or Victim? | This is not TEA `,
+    title: ` We Need to Talk About Cancel Culture | Caroline Flack Villain or Victim? `,
     description: ` We Need to Talk About Cancel Culture | Caroline Flack Villain or Victim? | This is not TEA `,
     authorSrc: 'https://kezandunicorns.com/assets/assets//author.jpg',
     author: 'kezandunicorns',
@@ -291,7 +291,7 @@ export const postsDB = [
   },
   {
     tags: 'GRWM | LGBTQIA | Storytime',
-    title: ` Let's Talk About What Pride was like 13 years ago in San Francisco | GRWM | LGBTQIA | Storytime `,
+    title: ` Let's Talk About What Pride was like 13 years ago in San Francisco `,
     description: ` Let's Talk About What Pride was like 13 years ago in San Francisco | GRWM | LGBTQIA | Storytime `,
     authorSrc: 'https://kezandunicorns.com/assets/assets//author.jpg',
     author: 'kezandunicorns',
@@ -331,7 +331,7 @@ export const postsDB = [
   },
   {
     tags: 'This is not TEA',
-    title: ` Gabbie Hanna's Mental Health is NOT "youtube TEA" | This is not TEA `,
+    title: ` Gabbie Hanna's Mental Health is NOT "youtube TEA" `,
     description: ` Gabbie Hanna's Mental Health is NOT "youtube TEA" | This is not TEA `,
     authorSrc: 'https://kezandunicorns.com/assets/assets//author.jpg',
     author: 'kezandunicorns',
@@ -351,7 +351,7 @@ export const postsDB = [
   },
   {
     tags: 'GRWM | Unicorn Corner',
-    title: ` Quarantine Mental Health and Makeup | GRWM | Unicorn Corner `,
+    title: ` Quarantine Mental Health and Makeup `,
     description: ` Quarantine Mental Health and Makeup | GRWM | Unicorn Corner `,
     authorSrc: 'https://kezandunicorns.com/assets/assets//author.jpg',
     author: 'kezandunicorns',
@@ -361,7 +361,7 @@ export const postsDB = [
   },
   {
     tags: 'Dissociative Identity Disorder Meet My Alters | This is not TEA',
-    title: ` What was TRISHA PAYTAS thinking?! | Dissociative Identity Disorder Meet My Alters | This is not TEA `,
+    title: ` What was TRISHA PAYTAS thinking?! | Dissociative Identity Disorder Meet My Alters `,
     description: ` What was TRISHA PAYTAS thinking?! | Dissociative Identity Disorder Meet My Alters | This is not TEA `,
     authorSrc: 'https://kezandunicorns.com/assets/assets//author.jpg',
     author: 'kezandunicorns',
@@ -371,7 +371,7 @@ export const postsDB = [
   },
   {
     tags: 'BPD Episode Caught on Camera | RAW',
-    title: ` I told a friend I had Borderline Personality Disorder and... | BPD Episode Caught on Camera | RAW `,
+    title: ` I told a friend I had Borderline Personality Disorder and... | BPD Episode Caught on Camera `,
     description: ` I told a friend I had Borderline Personality Disorder and... | BPD Episode Caught on Camera | RAW `,
     authorSrc: 'https://kezandunicorns.com/assets/assets//author.jpg',
     author: 'kezandunicorns',
@@ -381,7 +381,7 @@ export const postsDB = [
   },
   {
     tags: 'Kawaii Corner',
-    title: ` ROCKSTAR WIGS Unboxing, Haul and Reviewing My Collection | Kawaii Corner `,
+    title: ` ROCKSTAR WIGS Unboxing, Haul and Reviewing My Collection `,
     description: ` ROCKSTAR WIGS Unboxing, Haul and Reviewing My Collection | Kawaii Corner `,
     authorSrc: 'https://kezandunicorns.com/assets/assets//author.jpg',
     author: 'kezandunicorns',
@@ -391,7 +391,7 @@ export const postsDB = [
   },
   {
     tags: 'Mental Health Story | Storytime | Unicorn Corner',
-    title: ` It's Time to Talk about my Mental Health | Mental Health Story | Storytime | Unicorn Corner `,
+    title: ` It's Time to Talk about my Mental Health `,
     description: ` It's Time to Talk about my Mental Health | Mental Health Story | Storytime | Unicorn Corner `,
     authorSrc: 'https://kezandunicorns.com/assets/assets//author.jpg',
     author: 'kezandunicorns',
@@ -401,7 +401,7 @@ export const postsDB = [
   },
   {
     tags: 'Kawaii Corner',
-    title: ` GRMW Miss Santa Christmas Cosplay | Kawaii Corner `,
+    title: ` GRMW Miss Santa Christmas Cosplay `,
     description: ` GRMW Miss Santa Christmas Cosplay | Kawaii Corner `,
     authorSrc: 'https://kezandunicorns.com/assets/assets//author.jpg',
     author: 'kezandunicorns',
@@ -411,7 +411,7 @@ export const postsDB = [
   },
   {
     tags: 'Unicorn and Flamingo Fizz | Pastel Wigs | Kawaii Corner',
-    title: ` STAR STYLE WIGS Review | Unicorn and Flamingo Fizz | Pastel Wigs | Kawaii Corner `,
+    title: ` STAR STYLE WIGS Review | Unicorn and Flamingo Fizz `,
     description: ` STAR STYLE WIGS Review | Unicorn and Flamingo Fizz | Pastel Wigs | Kawaii Corner `,
     authorSrc: 'https://kezandunicorns.com/assets/assets//author.jpg',
     author: 'kezandunicorns',
