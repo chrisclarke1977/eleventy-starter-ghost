@@ -1,6 +1,6 @@
 ---
 layout: ../../../layouts/project.astro
-title: Live: Kez and Unicorns
+title: Live  Kez and Unicorns
 client: Self
 publishDate: 2020-03-04 00:00:00
 img: https://i.ytimg.com/vi/hPMkQUvBnM8/hqdefault.jpg
